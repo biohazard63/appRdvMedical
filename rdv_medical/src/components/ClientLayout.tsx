@@ -7,7 +7,7 @@ import { Moon, Sun } from "lucide-react";
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
     return (
         <ThemeProvider>
-            <div className="min-h-screen text-white">
+            <div className="min-h-screen ">
                 <main className="p-4">{children}</main>
             </div>
         </ThemeProvider>
